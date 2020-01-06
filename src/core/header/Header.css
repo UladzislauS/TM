@@ -1,0 +1,26 @@
+.Header {
+    position: relative;
+    z-index: 500;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+}
+
+.Header-link {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    display: flex;
+}
+
+.Header-logo {
+    height: 90%;
+    pointer-events: none;
+    display: inline-block;
+}
+
+.Header-logo__sup {
+    color: #6365c2;
+}
