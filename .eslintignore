@@ -1,0 +1,3 @@
+**/setupTests.js
+**/serviceWorker.js
+src/**/*.test.js

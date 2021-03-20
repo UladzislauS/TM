@@ -1,15 +1,23 @@
 import React from 'react';
+import { CssBaseline } from '@material-ui/core';
+
+import Map from './features/Map';
+import Header from './core/Header';
+import LeftSidebar from './features/LeftSidebar';
+
 import './App.css';
-import { Map } from './features/map/Map';
-import { Header } from './core/header/Header';
 
 function App() {
-  return (
-    <div className="App">
-      <Header></Header>
-      <Map></Map>
-    </div>
-  );
+    return (
+        <>
+            <CssBaseline />
+            <div className="App">
+                <Header />
+                <Map />
+                <LeftSidebar />
+            </div>
+        </>
+    );
 }
 
 export default App;
